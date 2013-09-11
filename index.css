@@ -44,18 +44,14 @@ a {
   color: #4abfdb;
   text-decoration: none;
   border-bottom: 1px solid rgba(83, 167, 187, 0.3);
-  -webkit-transition: all 0.3s ease-out;
-      -moz-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-           transition: all 0.3s ease-out;
+  -webkit-transition: color 0.3s ease-out;
+      -moz-transition: color 0.3s ease-out;
+        -o-transition: color 0.3s ease-out;
+           transition: color 0.3s ease-out;
 }
 
 a:hover {
   border-bottom: 1px solid rgba(83, 167, 187, 1);
-  -webkit-transition: all 0.3s ease-out;
-     -moz-transition: all 0.3s ease-out;
-       -o-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
 }
 
 #content {
