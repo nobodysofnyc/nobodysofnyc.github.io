@@ -117,6 +117,7 @@ a:hover {
     font-weight: bold;
   }
 
+
   p {
     margin: 0px;
   }
@@ -126,6 +127,8 @@ a:hover {
   }
 
   #bottom {
+
     height: auto;
   }
 }
+
