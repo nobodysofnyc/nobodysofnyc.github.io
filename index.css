@@ -130,3 +130,19 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 480px) and (orientation : landscape) {
+  #content, #bottom {
+    padding: 0px 20px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 24px;
+  }
+  a {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
