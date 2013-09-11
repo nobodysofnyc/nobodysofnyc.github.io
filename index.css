@@ -103,6 +103,7 @@ a:hover {
     font-size: 32px;
     line-height: 34px;
     -webkit-margin-after: 0;
+    padding-top: 30px;
   }
 
   a {
@@ -115,5 +116,9 @@ a:hover {
 
   p {
     margin-bottom: 18px;
+  }
+
+  #content, #bottom {
+    padding: 0px 30px;
   }
 }
