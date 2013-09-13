@@ -119,6 +119,7 @@ a:hover {
 
   a {
     font-size: 32px;
+    letter-spacing: 0px;
   }
 
   b {
@@ -155,6 +156,7 @@ a:hover {
 
   a {
     font-size: 20px;
+    letter-spacing: 0px;
   }
 
   p {
