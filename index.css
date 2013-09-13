@@ -45,6 +45,7 @@ a {
   font-weight: 300;
   color: #4abfdb;
   text-decoration: none;
+  letter-spacing: -2px;
   border-bottom: 1px solid rgba(83, 167, 187, 0.3);
   -webkit-transition: border-bottom 0.3s ease-out, color 0.3s ease-out;
       -moz-transition: color 0.3s ease-out;
