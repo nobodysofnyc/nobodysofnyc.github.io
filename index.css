@@ -16,8 +16,8 @@ html {
 }
 
 h2 {
-  font-family: "HelveticaNeue-Ultra-Light", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #e9f6f9;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #D4E9EE;
   font-weight: 100;
   font-size: 73px;
   line-height: 84px;
@@ -26,17 +26,32 @@ h2 {
   padding-top: 70px;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 12px;
+  color: #e9f6f9;
+  opacity: 0.35;
+  letter-spacing: 2px;
+}
+
 p {
-  font-family: "HelveticaNeue-Ultra-Light", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #3F5054;
   font-weight: 300;
+  font-size: 20px;
+}
+
+p.small {
   font-size: 17px;
   margin: 0px;
   margin-bottom: 58px;
+  font-weight: 400;
 }
 
-b{
-  font-weight: 500;
+b {
+  font-weight: 600;
+  color: white;
 }
 
 a {
@@ -57,6 +72,10 @@ a:hover {
   border-bottom: 1px solid rgba(83, 167, 187, 1);
 }
 
+img {
+  opacity: 0.35;
+}
+
 #content {
   max-width: 960px;
   margin: 0 auto;
@@ -68,6 +87,10 @@ a:hover {
   content: "";
   display: block;
   height: 78px;
+}
+
+.after {
+  padding-left: 30px;
 }
 
 #bottom {
