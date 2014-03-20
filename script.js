@@ -17,6 +17,8 @@ $(document).ready(function() {
       $header.css('position', 'relative');
       $spacer.remove();
     });
-    $a.css('opacity', '1');
+    setTimeout(function() {
+      $a.css('opacity', '1');
+    }, 200);
   }, delay);
 });
