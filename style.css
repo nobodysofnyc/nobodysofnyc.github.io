@@ -155,7 +155,7 @@ a {
 }
 
 .rings {
-  right: -220px;
+  right: -204px;
   width: 800px;
   top: -140px;
   position: absolute;
@@ -164,8 +164,8 @@ a {
 
 .phone {
   position: absolute;
-  top: -70px;
-  right: 0px;
+  top: -40px;
+  right: 24px;
   z-index: 4;
 }
 
