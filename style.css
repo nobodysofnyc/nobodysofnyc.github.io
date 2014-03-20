@@ -361,6 +361,11 @@ a.contact:hover {
 }
 
 @media screen and (max-device-width: 400px) {
+  .w960 {
+     width: 100%;
+     max-width: 960px;
+  }
+
   .header {
     height: auto;
     position: relative;
