@@ -373,6 +373,7 @@ a.contact:hover {
 
   header {
     padding-top: 0px;
+    padding-bottom: 14px;
   }
 
   h1 {
@@ -419,5 +420,9 @@ a.contact:hover {
   .role a {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .roles, .press {
+    margin-top: 40px;
   }
 }
