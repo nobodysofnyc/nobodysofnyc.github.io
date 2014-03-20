@@ -75,11 +75,11 @@ p.title {
 }
 
 a.link {
-  color: #fff;
+  color: #27F59A;
   font-size: 22px;
   font-family: "europa-1","europa-2",sans-serif;
   font-weight: 700;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(39,245,154,0.15);
   -webkit-transition: 200ms ease;
   -moz-transition: 200ms ease;
   -o-transition: 200ms ease;
@@ -87,7 +87,7 @@ a.link {
 }
 
 a.link:hover {
-  border-bottom: 1px solid rgba(255,255,255,1);
+  border-bottom: 1px solid rgba(39,245,154,1);
   -webkit-transition: 500ms ease;
   -moz-transition: 500ms ease;
   -o-transition: 500ms ease;
@@ -107,6 +107,22 @@ a.link:hover {
 
 .role a {
   color: #fff;
+}
+
+.role a span {
+  opacity: 0.25;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+.role a:hover span {
+  opacity: 1;
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 a {
@@ -201,10 +217,10 @@ header {
 }
 
 a.contact {
-  color: #4abfdb;
+  color: #E35E3E;
   font-weight: bold;
   margin-left: 5px;
-  border-bottom: 1px solid rgba(74,191,219,0.4);
+  border-bottom: 1px solid rgba(227,94,62,0.3);
   -webkit-transition: 200ms ease;
   -moz-transition: 200ms ease;
   -o-transition: 200ms ease;
@@ -212,7 +228,7 @@ a.contact {
 }
 
 a.contact:hover {
-  border-bottom: 1px solid rgba(74,191,219,1);
+  border-bottom: 1px solid rgba(227,94,62,1);
   -webkit-transition: 500ms ease;
   -moz-transition: 500ms ease;
   -o-transition: 500ms ease;
