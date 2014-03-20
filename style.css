@@ -241,6 +241,10 @@ header {
   right: 0px;
 }
 
+a.bottom {
+  font-size: 21px;
+}
+
 a.contact {
   opacity: 0;
   color: #E35E3E;
