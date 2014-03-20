@@ -137,9 +137,16 @@ a {
   float: left;
 }
 
+.content {
+  width: 100%;
+  padding: 0px 15px;
+}
+
 .body {
   position: relative;
   overflow: hidden;
+  z-index: 2;
+  padding-bottom: 150px;
 }
 
 .under {
@@ -152,25 +159,29 @@ a {
   width: 800px;
   top: -140px;
   position: absolute;
+  z-index: 1;
 }
 
-.content {
-  width: 100%;
-  padding: 0px 15px;
+.phone {
+  position: absolute;
+  top: -70px;
+  right: 0px;
+  z-index: 4;
 }
 
 .main {
   min-height: 100%;
-  margin-bottom: -78px;
 }
 
-.main::after {
+.main:after {
   content: '';
   height: 78px;
 }
 
 .header {
   background: #fff;
+  position: relative;
+  z-index: 3;
 }
 
 header {
@@ -195,14 +206,18 @@ header {
   padding-left: 30px;
 }
 
-/*
+.bottom {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+
 #bottom {
   max-width: 960px;
   bottom: 0;
-  height: 78px;
+  height: 100px;
   margin: 0px auto;
 }
-*/
 
 .name {
   float: left;
