@@ -243,6 +243,7 @@ header {
 }
 
 a.contact {
+  opacity: 0;
   color: #E35E3E;
   font-weight: bold;
   margin-left: 5px;

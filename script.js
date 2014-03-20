@@ -3,6 +3,7 @@ $(document).ready(function() {
   var $header2 = $('header');
   var $spacer = $('#spacer');
   var $body = $('.body');
+  var $a = $('.contact');
   var time = 800;
   var method = 'easeInOutQuint';
   var delay = 2000;
@@ -14,5 +15,6 @@ $(document).ready(function() {
       $header.css('position', 'relative');
       $spacer.remove();
     });
+    $a.css('opacity', '1');
   }, delay);
 });
