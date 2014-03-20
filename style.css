@@ -17,13 +17,12 @@ html, body {
 }
 
 body {
-  background: #30AD76;
+  background: #141E18;
 }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #000;
-  font-weight: 100;
+  font-family: "europa-1","europa-2",sans-serif;
+  color: #1a1a1a;
   font-size: 40px;
   line-height: 84px;
   margin-bottom: 0px;
@@ -44,23 +43,23 @@ h2 {
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif;;
+  font-family: "europa-1","europa-2",sans-serif;
   font-size: 12px;
-  color: #3C4D52;
+  color: #1a1a1a;
   margin-bottom: 5px;
 }
 
 h4 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-family: "europa-1","europa-2",sans-serif;
+  font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #1F724D;
+  color: #5B7465;
   font-weight: 400;
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "europa-1","europa-2",sans-serif;
   color: #fff;
   font-weight: 400;
   font-size: 21px;
@@ -69,13 +68,30 @@ p {
 }
 
 p.title {
-  font-size: 34px;
+  font-size: 40px;
+  padding-top: 42px;
+  padding-bottom: 10px;
+  font-weight: 700;
 }
 
 a.link {
   color: #fff;
   font-size: 22px;
-  border-bottom: 1px solid #fff;
+  font-family: "europa-1","europa-2",sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+a.link:hover {
+  border-bottom: 1px solid rgba(255,255,255,1);
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 .space {
@@ -84,9 +100,8 @@ a.link {
 }
 
 .role {
-  font-size: 16px;
+  font-size: 17px;
   padding-bottom: 0px;
-  font-weight: bold;
   margin-bottom: 2px;
 }
 
@@ -164,29 +179,44 @@ header {
   padding-left: 30px;
 }
 
+/*
 #bottom {
   max-width: 960px;
   bottom: 0;
   height: 78px;
   margin: 0px auto;
 }
+*/
 
 .name {
   float: left;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 17px;
   position: absolute;
-  bottom: 20px;
+  bottom: 17px;
   font-weight: 400;
   right: 0px;
 }
 
 a.contact {
-  color: #FF6A00;
+  color: #4abfdb;
   font-weight: bold;
-  border-bottom: 1px solid #FF6A00;
+  margin-left: 5px;
+  border-bottom: 1px solid rgba(74,191,219,0.4);
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+a.contact:hover {
+  border-bottom: 1px solid rgba(74,191,219,1);
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 @media screen and (max-width: 959px) {
