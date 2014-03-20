@@ -265,7 +265,6 @@ a.contact {
   -moz-transition: 200ms ease;
   -o-transition: 200ms ease;
   transition: 200ms ease;
-  display: inline-block;
 }
 
 a.contact:hover {
@@ -432,5 +431,5 @@ a.contact:hover {
   }
 
   .big { display: none; }
-  .small { display: block; }
+  .small { display: inline-block; }
 }
