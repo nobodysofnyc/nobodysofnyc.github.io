@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  var touch = "ontouchstart" in document;
+  if (touch) return;
   var $header = $('#header');
   var $header2 = $('header');
   var $spacer = $('#spacer');

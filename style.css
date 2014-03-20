@@ -257,7 +257,6 @@ a.contact {
   opacity: 0;
   color: #E35E3E;
   font-weight: bold;
-  margin-left: 5px;
   border-bottom: 1px solid rgba(227,94,62,0.3);
   -webkit-transition: 200ms ease;
   -moz-transition: 200ms ease;
@@ -360,4 +359,65 @@ a.contact:hover {
     font-size: 12px;
   }
 
+}
+
+@media screen and (max-device-width: 400px) {
+  .header {
+    height: auto;
+    position: relative;
+  }
+
+  .space {
+    display: none;
+  }
+
+  header {
+    padding-top: 0px;
+  }
+
+  h1 {
+    font-size: 26px;
+    padding-top: 0px;
+  }
+
+  .name, .description {
+    float: none;
+  }
+
+  .description {
+    position: static;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  a.contact {
+    opacity: 1;
+    font-size: 14px;
+  }
+
+  #spacer {
+    display: none;
+  }
+
+  .body {
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .pull-left {
+    float: none;
+  }
+
+  .rings, .phone {
+    display: none;
+  }
+
+  .role a {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
