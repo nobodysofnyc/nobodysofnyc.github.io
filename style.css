@@ -8,6 +8,10 @@ html, body {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
+.small {
+  display: none;
+}
+
 .clearfix {
   display: table;
 }
@@ -212,8 +216,7 @@ header {
 }
 
 .w960 {
-  width: 100%;
-  max-width: 960px;
+  width: 960px;
   margin: 0px auto;
   position: relative;
 }
@@ -286,10 +289,6 @@ a.contact:hover {
     padding: 0px 60px;
   }
 
-  a {
-    font-size: 56px;
-    line-height:60px;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -425,4 +424,7 @@ a.contact:hover {
   .roles, .press {
     margin-top: 40px;
   }
+
+  .big { display: none; }
+  .small { display: block; }
 }
