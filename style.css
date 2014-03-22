@@ -349,6 +349,49 @@ a.contact:hover {
 
 }
 
+@media screen and (max-device-width: 1024px) {
+  .w960 {
+     width: 100%;
+     max-width: 960px;
+  }
+  .header {
+    height: auto;
+    position: relative;
+  }
+
+  .space {
+    display: none;
+  }
+
+  header {
+    padding-top: 0px;
+    padding-bottom: 14px;
+  }
+
+  #spacer {
+    display: none;
+  }
+
+  .description {
+    position: static;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  a.contact {
+    opacity: 1;
+    font-size: 14px;
+  }
+
+  .body {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .name, .description {
+    float: none;
+  }
+}
+
 @media screen and (max-device-width: 400px) {
   .w960 {
      width: 100%;
