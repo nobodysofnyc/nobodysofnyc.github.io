@@ -387,8 +387,15 @@ a.contact:hover {
     display: block;
     padding-bottom: 20px;
   }
+
   .name, .description {
     float: none;
+  }
+
+  .phone {
+    width: 200px;
+    top: 30px;
+    right: 114px;
   }
 }
 
