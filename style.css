@@ -279,7 +279,7 @@ a.bottom {
 a.contact {
   opacity: 0;
   color: #6362BF;
-  font-family: 'Adobe Garamond W01 Bd';;
+  font-family: 'Adobe Garamond W01 SmBd';
   border-bottom: 1px solid rgba(99,98,191,0.3);
   -webkit-transition: 200ms ease;
   -moz-transition: 200ms ease;
@@ -427,6 +427,46 @@ a.contact:hover {
     width: 200px;
     top: 30px;
     right: 114px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #forms {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -720px;
+    left: 150px;
+    overflow: hidden;
+  }
+  .bottom-phone { 
+    display: none;
+  }
+  #header, .body.featured, .clients {
+    padding: 0 30px;
+    overflow: hidden;
+  }
+  h4.featured {
+    padding-top: 40px;
+  }
+  h3.description {
+    padding-bottom: 70px;
+    font-size: 19px;
+  }
+  h3.description a {
+    font-size: 19px;
+  }
+  .content.body .col-6.pull-left {
+    padding-bottom: 40px;
+  }
+  .phone {
+    top: 82px;
+    right: 70px;
+  }
+  .rings {
+    top: -110px;
+    right: -230px;
   }
 }
 
