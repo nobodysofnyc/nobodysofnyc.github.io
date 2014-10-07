@@ -6,6 +6,7 @@ $(document).ready(function() {
   var $spacer = $('#spacer');
   var $body = $('.body');
   var $a = $('.contact');
+  var $forms = $('#forms');
   var time = 800;
   var method = 'easeInOutQuint';
   var delay = 2000;
@@ -19,6 +20,7 @@ $(document).ready(function() {
     });
     setTimeout(function() {
       $a.css('opacity', '1');
+      $forms.css('opacity', '0');
     }, 200);
   }, delay);
 });
