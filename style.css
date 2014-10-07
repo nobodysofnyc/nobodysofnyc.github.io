@@ -436,6 +436,19 @@ a.contact:hover {
      max-width: 960px;
   }
 
+  .bottom-phone { 
+    display: none;
+  }
+
+  #forms {
+    background-size: cover;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: -480px;
+    left:50px;
+  }
+
   .header {
     height: auto;
     position: relative;
@@ -449,9 +462,9 @@ a.contact:hover {
     display: none;
   }
 
-  header {
+  .header {
     padding-top: 0px;
-    padding-bottom: 14px;
+    padding-bottom: 50px;
   }
 
   h1 {
@@ -463,15 +476,25 @@ a.contact:hover {
     float: none;
   }
 
+  .name {
+    margin-top: 70px;
+  }
+
+  .main .title {
+    font-size: 34px;
+  }
+
   .description {
     position: static;
     margin: 0px;
-    font-size: 14px;
+    font-size: 19px;
+    margin-bottom: 16px;
   }
 
   a.contact {
     opacity: 1;
-    font-size: 14px;
+    font-size: 19px;
+    margin-bottom:30px
   }
 
   #spacer {
@@ -481,6 +504,10 @@ a.contact:hover {
   .body {
     display: block;
     padding-bottom: 20px;
+  }
+
+  .body.featured {
+    padding-bottom: 80px;
   }
 
   .col-6 {
