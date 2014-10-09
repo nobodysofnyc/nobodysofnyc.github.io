@@ -235,7 +235,7 @@ header {
 
 .bottom-phone {
   background-image: url('images/phone.png');
-  background-position-y: -673px;
+  background-position-y: -693px;
   height: 37px;
   background-repeat: no-repeat;
   left: 594px;
@@ -293,6 +293,15 @@ a.contact:hover {
   -moz-transition: 500ms ease;
   -o-transition: 500ms ease;
   transition: 500ms ease;
+}
+
+a.cloak-link {
+  color: #35C284 !important;
+  border-color: rgba(53,194,132, 0.3) !important;
+}
+
+a.cloak-link:hover {
+  border-color: rgba(53,194,132, 1) !important;
 }
 
 @media screen and (max-width: 959px) {
