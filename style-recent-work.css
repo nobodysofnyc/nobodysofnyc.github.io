@@ -73,3 +73,14 @@ h2.nobodys-name a {
   background-position: center center;
   display: block;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  h2.nobodys-name {
+    margin-top: 0.698em;
+  }
+  .footer p {
+    padding-top: 60px;
+  }
+}
