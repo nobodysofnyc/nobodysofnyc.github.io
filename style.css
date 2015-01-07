@@ -39,6 +39,14 @@ a, p {
   color: #6362BF;
 }
 
+a.clients {
+  text-decoration: none;
+}
+
+a.clients:hover {
+  text-decoration: underline;
+}
+
 .footer p {
   opacity: 0.8;
   font-size: 0.8em;
