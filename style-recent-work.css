@@ -9,10 +9,16 @@ html, body {
 
 h1 {
   margin-bottom: 0;
+  color: #E7E7F4;
+}
+
+h1 a {
+  color: #E7E7F4;
 }
 
 h4 {
   margin-top: 1em;
+  color: #E7E7F4;
 }
 
 p {
