@@ -33,6 +33,10 @@ h2 {
   display: inline-block;
 }
 
+h1:first-child {
+  margin-top: 0px;
+}
+
 h2.nobodys-name {
   float: right;
   font-weight: 200;
