@@ -1,0 +1,64 @@
+html, body {
+  background-color: #000;
+}
+
+#content-wrapper {
+  max-width: 1190px;
+  padding-bottom: 0%;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 1em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #E7E7F4;
+}
+
+h2 {
+  font-weight: 700;
+  color: #E7E7F4;
+  display: inline-block;
+}
+
+h2.nobodys-name {
+  float: right;
+  font-weight: 200;
+  color: #6362BF;
+}
+
+h2.nobodys-name a {
+  text-decoration: none;
+}
+
+.project {
+  margin-bottom: 12em;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project-head {
+  margin-bottom: 2em;
+}
+
+.footer p {
+  color: #6362BF;
+  padding-top: 130px;
+}
+
+.footer {
+  background-image: url(images/footer.png);
+  background-size: cover;
+  height: 462px;
+  width: 100%;
+  background-position: center center;
+  display: block;
+}
