@@ -56,6 +56,10 @@ h2.nobodys-name a {
   max-width: 100%;
 }
 
+p a {
+  color: #E7E7F4;
+}
+
 .project-head {
   margin-bottom: 2em;
 }
