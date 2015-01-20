@@ -69,6 +69,10 @@ p a {
   padding-top: 130px;
 }
 
+.footer a {
+  color: #6362BF;
+}
+
 .footer {
   background-image: url(images/footer.png);
   background-size: cover;
